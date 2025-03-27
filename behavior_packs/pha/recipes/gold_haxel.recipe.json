@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke_pha:gold_haxel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N#N",
+			"#i#",
+			"N#N"
+		],
+		"group": "haxel",
+		"unlock": [
+			{
+				"item": "gold_ingot"
+			},
+			{
+				"item": "poke_pha:iron_haxel"
+			},
+			{
+				"item": "gold_block"
+			}
+		],
+		"key": {
+			"i": {
+				"item": "poke_pha:iron_haxel"
+			},
+			"#": {
+				"item": "gold_ingot"
+			},
+			"N": {
+				"item": "gold_block"
+			}
+		},
+		"result": {
+			"item": "poke_pha:gold_haxel"
+		}
+	}
+}

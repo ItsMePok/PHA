@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "poke_pha:identifier",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "%poke_pha.identifier\n§7%poke_pha.identifier.desc\n%poke_pha.tag"
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "poke_pha_identifier"
+				}
+			},
+			"minecraft:rarity": "common",
+			"minecraft:hand_equipped": {
+				"value": true
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:custom_components": [
+				"poke_pha:identifier"
+			]
+		}
+	}
+}

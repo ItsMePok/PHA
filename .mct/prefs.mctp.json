@@ -1,0 +1,186 @@
+{
+  "dataType": 1,
+  "storageBasePath": "",
+  "contentsModified": "2025-03-25T20:17:47.790Z",
+  "dataStorageRelativePath": "/Poke/",
+  "editPreference": 0,
+  "name": "Poke",
+  "title": "Poke",
+  "description": "TypeScript Starter",
+  "defaultBehaviorPackUniqueId": "c9393ff7-c233-40fe-a017-b5f6ff8c8fc1",
+  "defaultResourcePackUniqueId": "9f9315a5-7511-45fd-857a-8a664c009fd3",
+  "defaultScriptModuleUniqueId": "1debdd3a-62b3-4761-87ce-5a3dd6d8abfd",
+  "defaultDataUniqueId": "c9ff82af-e3cb-4206-bcff-c4051922cf20",
+  "focus": 0,
+  "items": [
+    {
+      "itemType": 59,
+      "projectPath": "/package.json",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": "package.json",
+      "isInWorld": false
+    },
+    {
+      "itemType": 58,
+      "projectPath": "/tsconfig.json",
+      "storageType": 0,
+      "creationType": 0,
+      "tags": [],
+      "name": "tsconfig.json",
+      "isInWorld": false
+    },
+    {
+      "itemType": 129,
+      "projectPath": "/.mct/prefs.mctp.json",
+      "storageType": 0,
+      "creationType": 0,
+      "tags": [],
+      "name": "prefs.mctp.json",
+      "isInWorld": false
+    },
+    {
+      "itemType": 109,
+      "projectPath": "/behavior_packs/starter/",
+      "storageType": 1,
+      "creationType": 0,
+      "tags": [],
+      "name": "starter"
+    },
+    {
+      "itemType": 5,
+      "projectPath": "/behavior_packs/starter/manifest.json",
+      "storageType": 0,
+      "creationType": 0,
+      "tags": [
+        "behaviorpackmanifest"
+      ],
+      "name": "manifest.json",
+      "isInWorld": false
+    },
+    {
+      "itemType": 103,
+      "projectPath": "/behavior_packs/starter/pack_icon.png",
+      "storageType": 0,
+      "creationType": 0,
+      "tags": [],
+      "name": "pack_icon.png",
+      "isInWorld": false
+    },
+    {
+      "itemType": 110,
+      "projectPath": "/resource_packs/starter/",
+      "storageType": 1,
+      "creationType": 0,
+      "tags": [],
+      "name": "starter"
+    },
+    {
+      "itemType": 14,
+      "projectPath": "/resource_packs/starter/manifest.json",
+      "storageType": 0,
+      "creationType": 0,
+      "tags": [
+        "resourcepackmanifest"
+      ],
+      "name": "manifest.json",
+      "isInWorld": false
+    },
+    {
+      "itemType": 103,
+      "projectPath": "/resource_packs/starter/pack_icon.png",
+      "storageType": 0,
+      "creationType": 0,
+      "tags": [],
+      "name": "pack_icon.png",
+      "isInWorld": false
+    },
+    {
+      "itemType": 13,
+      "projectPath": "/scripts/main.ts",
+      "storageType": 0,
+      "creationType": 0,
+      "tags": [],
+      "name": "main.ts",
+      "isInWorld": false
+    },
+    {
+      "itemType": 121,
+      "projectPath": "/.env",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": ".env"
+    },
+    {
+      "itemType": 122,
+      "projectPath": "/.prettierrc.json",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": ".prettierrc.json"
+    },
+    {
+      "itemType": 119,
+      "projectPath": "/just.config.ts",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": "just.config.ts"
+    },
+    {
+      "itemType": 120,
+      "projectPath": "/eslint.config.mjs",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": "eslint.config.mjs"
+    },
+    {
+      "itemType": 75,
+      "projectPath": "/.vscode/launch.json",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": "launch.json"
+    },
+    {
+      "itemType": 77,
+      "projectPath": "/.vscode/settings.json",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": "settings.json"
+    },
+    {
+      "itemType": 76,
+      "projectPath": "/.vscode/tasks.json",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": "tasks.json"
+    },
+    {
+      "itemType": 78,
+      "projectPath": "/.vscode/extensions.json",
+      "storageType": 0,
+      "creationType": 1,
+      "tags": [],
+      "name": "extensions.json"
+    }
+  ],
+  "projectFolderTitle": "PHA",
+  "originalGitHubOwner": "microsoft",
+  "originalGitHubRepoName": "minecraft-scripting-samples",
+  "originalGitHubFolder": "/ts-starter",
+  "originalGalleryId": "tsStarter",
+  "creator": "Poke",
+  "shortName": "poke_pha",
+  "track": 0,
+  "versionMajor": 1,
+  "versionMinor": 0,
+  "versionPatch": 0,
+  "collapsedStoragePaths": [],
+  "gitHubReferences": []
+}

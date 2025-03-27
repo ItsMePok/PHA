@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "name": "poke:itemGroup.name.haxel",
+              "icon": "poke_pha:wooden_haxel"
+            },
+            "items": [
+              "poke_pha:wooden_haxel",
+              "poke_pha:stone_haxel",
+              "poke_pha:iron_haxel",
+              "poke_pha:gold_haxel",
+              "poke_pha:emerald_haxel",
+              "poke_pha:diamond_haxel",
+              "poke_pha:netherite_haxel",
+              "poke_pha:amethyst_haxel",
+              "poke_pha:onyx_haxel",
+              "poke_pha:holy_haxel",
+              "poke_pha:hellish_haxel",
+              "poke_pha:godly_haxel",
+              "poke_pha:demonic_haxel",
+              "poke_pha:medic_haxel",
+              "poke_pha:molten_haxel",
+              "poke_pha:galaxy_haxel",
+              "poke_pha:void_haxel",
+              "poke_pha:astral_haxel",
+              "poke_pha:death_haxel",
+              "poke_pha:nebula_haxel",
+              "poke_pha:cobalt_haxel",
+              "poke_pha:shade_haxel",
+              "poke_pha:radium_haxel"
+            ]
+          },
+          {
+            "items": [
+              "poke_pha:identifier"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

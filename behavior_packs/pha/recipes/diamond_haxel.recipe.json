@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke_pha:diamond_haxel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N#N",
+			"#i#",
+			"N#N"
+		],
+		"group": "haxel",
+		"unlock": [
+			{
+				"item": "diamond"
+			},
+			{
+				"item": "diamond_block"
+			},
+			{
+				"item": "poke_pha:emerald_haxel"
+			}
+		],
+		"key": {
+			"i": {
+				"item": "poke_pha:emerald_haxel"
+			},
+			"#": {
+				"item": "diamond"
+			},
+			"N": {
+				"item": "diamond_block"
+			}
+		},
+		"result": {
+			"item": "poke_pha:diamond_haxel"
+		}
+	}
+}

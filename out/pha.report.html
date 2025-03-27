@@ -1,0 +1,211 @@
+<html><head>
+<script>
+const _reportObjects = [];
+
+function _addReportJson(data) {
+  _reportObjects.push(data);
+}
+
+_addReportJson({"info":{"behaviorPackManifestCount":0,"unknownJsonCount":0,"entityTypeManifestCount":0,"itemTypeManifestCount":0,"blockTypeManifestCount":0,"resourcePackManifestCount":0,"worldCount":0,"entityTypeResourceCount":0,"behaviorPackAnimationCount":0,"behaviorPackAnimationControllerCount":0,"overallSize":113774103,"fileCounts":19916,"folderCounts":2045,"contentSize":754442,"contentFileCounts":302,"contentFolderCounts":26,"subpackCount":0,"subpackTier1Count":0,"subpackTier2Count":0,"subpackTier3Count":0,"subpackTier4Count":0,"subpackTier5Count":0,"subpackTier6Count":0,"subpackTier7Count":0,"subpackTier8Count":0,"subpackTier9Count":0,"subpackTier10Count":0,"subpackTier11Count":0,"subpackTier12Count":0,"subpackTier13Count":0,"subpackTier14Count":0,"subpackTier15Count":0,"subpackTier16Count":0,"subpackTier17Count":0,"subpackTier18Count":0,"subpackTier19Count":0,"subpackTier20Count":0,"subpackTier21Count":0,"subpackTier22Count":0,"subpackTier23Count":0,"subpackTier24Count":0,"subpackTier25Count":0,"subpackTier26Count":0,"subpackTier27Count":0,"subpackTier28Count":0,"subpackTier29Count":0,"subpackTier30Count":0,"subpackTier31Count":0,"subpackTier32Count":0,"subpackTier33Count":0,"subpackTier34Count":0,"subpackTier35Count":0,"subpackTier36Count":0,"subpackTier37Count":0,"subpackTier38Count":0,"subpackTier39Count":0,"subpackTier40Count":0,"animationCount":0,"textureCount":0,"chunkCount":0,"subchunkLessChunkCount":0,"worldLoadErrors":0,"featureSets":{"Textures Item Texture Resource Count":{"Count":24},"Textures File Count":{"Count":26},"Textures Unique Item Texture Paths":{"Count":24}},"errorCount":1,"internalProcessingErrorCount":0,"warningCount":0,"testSuccessCount":5,"testFailCount":1,"testNotApplicableCount":1,"errorSummary":"ERROR: [CADDONREQ101] Found a loose file in the item_catalog folder. Should only see files in the folder item_catalog\\creatorshortname\\gamename\\: crafting_item_catalog.json","internalProcessingErrorSummary":"","testFailSummary":"TESTFAIL: [CADDONREQ000] Found 1 errors for Cooperative Add-On Requirements (CADDONREQ).","summary":{"PACKSIZE":{"1":{"title":"Overall Size","defaultMessage":"Pack Size Information (PACKSIZE) completed successfully .","testCompleteSuccesses":1},"2":{"title":"File Count"},"3":{"title":"Folder Count"},"4":{"title":"Content Size"},"5":{"title":"Content File Count"},"6":{"title":"Content Folder Count"}},"CADDONREQ":{"0":{"title":"General Item 0","defaultMessage":"Found 1 errors for Cooperative Add-On Requirements (CADDONREQ).","testCompleteFails":1},"101":{"title":"No Loose File In Type Folder","defaultMessage":"Found a loose file in the item_catalog folder. Should only see files in the folder item_catalog\\creatorshortname\\gamename\\","errors":1},"200":{"title":"Found Behavior Pack","defaultMessage":"Behavior pack manifest found."}},"TEXTURE":{"1":{"title":"Textures","defaultMessage":"Texture Validation (TEXTURE) completed successfully .","testCompleteSuccesses":1}},"MINENGINEVER":{"1":{"title":"1","defaultMessage":"Min Engine Version (MINENGINEVER) completed successfully .","testCompleteSuccesses":1},"605":{"title":"605","defaultMessage":"Behavior pack manifest min_engine_version"},"614":{"title":"614","defaultMessage":"Resource pack manifest format_version"}},"STRICT":{"1":{"title":"General Item 1","defaultMessage":"Strict Platform Info Generator (STRICT) completed successfully .","testCompleteSuccesses":1}},"WORLDDATA":{"2":{"defaultMessage":"No applicable items found for test World Data Validation (WORLDDATA)."}},"CADDONIREQ":{"1":{"defaultMessage":"Cooperative Add-On Item Requirements Generator (CADDONIREQ) completed successfully .","testCompleteSuccesses":1}}}},"items":[{"iTp":7,"gId":"PACKSIZE","gIx":1,"d":113774103},{"iTp":7,"gId":"PACKSIZE","gIx":2,"d":19916},{"iTp":7,"gId":"PACKSIZE","gIx":3,"d":2045},{"iTp":7,"gId":"PACKSIZE","gIx":4,"d":754442},{"iTp":7,"gId":"PACKSIZE","gIx":5,"d":302},{"iTp":7,"gId":"PACKSIZE","gIx":6,"d":26},{"iTp":2,"gId":"CADDONREQ","gIx":200,"p":"/behavior_packs/pha/manifest.json"},{"iTp":3,"gId":"CADDONREQ","gIx":101,"d":"crafting_item_catalog.json"},{"iTp":7,"gId":"TEXTURE","gIx":1,"fs":{"Item Texture Resource Count":{"Count":24},"File Count":{"Count":26},"Unique Item Texture Paths":{"Count":24}}},{"iTp":2,"gId":"MINENGINEVER","gIx":605,"p":"/behavior_packs/pha/manifest.json","d":[1,21,60]},{"iTp":2,"gId":"MINENGINEVER","gIx":614,"p":"/resource_packs/pha/manifest.json","d":[1,21,60]},{"iTp":0,"gId":"PACKSIZE","gIx":1},{"iTp":1,"gId":"CADDONREQ","gIx":0},{"iTp":0,"gId":"STRICT","gIx":1},{"iTp":0,"gId":"TEXTURE","gIx":1},{"iTp":0,"gId":"MINENGINEVER","gIx":1},{"iTp":8,"gId":"WORLDDATA","gIx":2},{"iTp":0,"gId":"CADDONIREQ","gIx":1}],"generatorName":"Minecraft Creator Tools","suite":2,"generatorVersion":"0.9.0","sourceName":"PHA","sourcePath":"/"});
+</script><script>
+
+    function getDataName(name) {
+      if (typeof name === "boolean" || typeof name === "number") {
+        return name.toString();
+      }
+    
+      let retVal = "";
+    
+      for (let i = 0; i < name.length; i++) {
+        if (i === 0) {
+          retVal += name[i].toUpperCase();
+        } else {
+          if (name[i] >= "A" && name[i] <= "Z") {
+            retVal += " ";
+          }
+          retVal += name[i];
+        }
+      }
+      return retVal;
+    }
+    
+    function getDataSummary(data) {
+      if (data) {
+        return data;
+      }
+      
+      if (typeof data === "number" || typeof data === "boolean") {
+        return data.toString();
+      }
+      
+      if (typeof data === "object") {
+        return JSON.stringify(data);
+      }
+    
+      return "(not defined)";
+    }  
+    
+    function getEmptySummary(data) {
+    
+      if (typeof data === "object") {
+        return JSON.stringify(data);
+      }
+      
+      if (typeof data === "number" || typeof data === "boolean") {
+        return data.toString();
+      }
+    
+      if (data) {
+        return data;
+      }
+      
+      return "";
+    }  
+
+    function getEffectiveMessage(reportObj, item) {
+      if (item.m !== undefined) {
+        return item.m;
+      }
+
+      if (reportObj.info === undefined || reportObj.info.summary === undefined) {
+        return undefined;
+      }
+
+      let gen = reportObj.info.summary[item.gId];
+
+      if (gen === undefined) {
+        return undefined;
+      }
+
+      let genI = gen[item.gIx];
+ 
+      if (genI === undefined) {
+        return undefined;
+      }
+
+      return genI.defaultMessage;
+    }	    
+    
+    function generateReports() {
+      for (let i=0; i<_reportObjects.length; i++) {
+        document.write("<h1>" + _reportObjects[i].sourceName + "</h1>");
+        document.write("<h3>Summary</h3>");
+    
+        document.write("<table class='summary-table'>");
+        document.write("<tr><th>Measure</th><th>Value</th></tr>");
+        const info = _reportObjects[i].info;
+    
+        if (info) {
+          for (const key in info) {
+            const val = info[key];
+    
+            if (key !== 'featureSets' && key !== 'defaultIcon' && key !== 'summary') {
+              document.write("<tr>");
+              document.write("<td class='summary-key items-cell'>" + getDataName(key) + "</td>");
+              document.write("<td class='summary-value items-cell'>" + getDataSummary(val) + "</td>");
+              document.write("</tr>");
+            }
+          }
+    
+          if (info["featureSets"]) {
+            for (const featureName in info.featureSets) {
+              const feature = info.featureSets[featureName];
+    
+              for (const measureName in feature) {
+                const val = feature[measureName];
+
+                 document.write("<tr>");
+                document.write("<td class='summary-key items-cell'>" + featureName + " " + measureName + "</td>");
+                document.write("<td class='summary-value items-cell'>" + getDataSummary(val) + "</td>");
+                document.write("</tr>");
+              }
+            }
+          }
+        }
+        document.write("</table>");
+      }
+    
+      for (let i=0; i<_reportObjects.length; i++) {
+        document.write("<h3>Items</h3>");
+        document.write("<table class='items-table'>");
+        document.write("<tr><th>Type</th><th>Test Category</th><th>Category Id</th><th>Message</th><th>Data</th><th>Path</th></tr>");
+        const info = _reportObjects[i].info;
+        
+        const items = _reportObjects[i].items;
+    
+        if (items && items.length) {
+          for (const item of items) {
+            if (item.itemType !== 2) {
+              document.write("<tr>");
+              document.write("<td class='items-type items-cell'>" + getDescriptionForItemType(item.iTp) + "</td>");
+              document.write("<td class='items-generator items-cell'>" + item.gId + "</td>");
+              document.write("<td class='items-generatorIndex items-cell'>" + item.gIx + "</td>");
+              document.write("<td class='items-message items-cell'>" + getEmptySummary(getEffectiveMessage(_reportObjects[i], item)) + "</td>");
+              document.write("<td class='items-data items-cell'>" + getEmptySummary(item.d) + "</td>");
+              document.write("<td class='items-path items-cell'>" + getEmptySummary(item.p) + "</td>");
+              document.write("</tr>");
+            }
+          }
+        }
+        document.write("</table>");
+      }
+    } 
+
+    function getDescriptionForItemType(itemType) {
+      switch (itemType) {
+        case 0: 
+          return "SUCCESS";
+          break;
+        case 1: 
+          return "FAIL";
+          break;
+        case 3: 
+          return "ERROR";
+          break;
+        case 4: 
+          return "WARN";
+          break;
+        case 5: 
+          return "INTERNALERR";
+          break;
+        case 6: 
+          return "RECOMMEND";
+          break;          
+      }
+      return "INFO";
+    }
+
+    </script>
+    <style>
+      body {
+        font-family: Noto Sans, Arial, Helvetica, sans-serif;
+        padding: 8px;
+      }
+    
+      .items-table {
+        border: solid 1px #606060;
+        padding: 0px;
+        max-width: 100vw;
+      }
+    
+      .items-cell {
+        border: solid 1px #606060;
+        padding: 4px;
+        vertical-align: top;
+        font-size: x-small;
+        overflow-wrap: anywhere;
+        max-width: 25vw;
+      }
+    
+      .summary-table {
+        border: solid 1px #606060;
+        padding: 0px;
+        max-width: 100vw;
+      }
+    </style>
+    </head><body> 
+
+<script>
+generateReports();
+</script>
+</body></html>

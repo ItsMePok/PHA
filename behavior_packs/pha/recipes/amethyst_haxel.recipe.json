@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke_pha:amethyst_haxel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N#N",
+			"#i#",
+			"N#N"
+		],
+		"group": "haxel",
+		"unlock": [
+			{
+				"item": "amethyst_shard"
+			},
+			{
+				"item": "poke_pha:netherite_haxel"
+			},
+			{
+				"item": "amethyst_block"
+			}
+		],
+		"key": {
+			"i": {
+				"item": "poke_pha:netherite_haxel"
+			},
+			"#": {
+				"item": "amethyst_shard"
+			},
+			"N": {
+				"item": "amethyst_block"
+			}
+		},
+		"result": {
+			"item": "poke_pha:amethyst_haxel"
+		}
+	}
+}

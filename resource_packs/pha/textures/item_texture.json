@@ -1,0 +1,77 @@
+{
+	"texture_data": {
+		"poke_pha_wooden_haxel": {
+			"textures": "textures/poke/pha/wooden_haxel"
+		},
+		"poke_pha_stone_haxel": {
+			"textures": "textures/poke/pha/stone_haxel"
+		},
+		"poke_pha_iron_haxel": {
+			"textures": "textures/poke/pha/iron_haxel"
+		},
+		"poke_pha_gold_haxel": {
+			"textures": "textures/poke/pha/gold_haxel"
+		},
+		"poke_pha_diamond_haxel": {
+			"textures": "textures/poke/pha/diamond_haxel"
+		},
+		"poke_pha_emerald_haxel": {
+			"textures": "textures/poke/pha/emerald_haxel"
+		},
+		"poke_pha_netherite_haxel": {
+			"textures": "textures/poke/pha/netherite_haxel"
+		},
+		"poke_pha_amethyst_haxel": {
+			"textures": "textures/poke/pha/amethyst_haxel"
+		},
+		"poke_pha_hellish_haxel": {
+			"textures": "textures/poke/pha/hellish_haxel"
+		},
+		"poke_pha_holy_haxel": {
+			"textures": "textures/poke/pha/holy_haxel"
+		},
+		"poke_pha_godly_haxel": {
+			"textures": "textures/poke/pha/godly_haxel"
+		},
+		"poke_pha_onyx_haxel": {
+			"textures": "textures/poke/pha/onyx_haxel"
+		},
+		"poke_pha_demonic_haxel": {
+			"textures": "textures/poke/pha/demonic_haxel"
+		},
+		"poke_pha_medic_haxel": {
+			"textures": "textures/poke/pha/medic_haxel"
+		},
+		"poke_pha_shade_haxel": {
+			"textures": "textures/poke/pha/shade_haxel"
+		},
+		"poke_pha_cobalt_haxel": {
+			"textures": "textures/poke/pha/cobalt_haxel"
+		},
+		"poke_pha_radium_haxel": {
+			"textures": "textures/poke/pha/radium_haxel"
+		},
+		"poke_pha_death_haxel": {
+			"textures": "textures/poke/pha/death_haxel"
+		},
+		"poke_pha_nebula_haxel": {
+			"textures": "textures/poke/pha/nebula_haxel"
+		},
+		"poke_pha_astral_haxel": {
+			"textures": "textures/poke/pha/astral_haxel"
+		},
+		"poke_pha_galaxy_haxel": {
+			"textures": "textures/poke/pha/galaxy_haxel"
+		},
+		"poke_pha_void_haxel": {
+			"textures": "textures/poke/pha/void_haxel"
+		},
+		"poke_pha_molten_haxel": {
+			"textures": "textures/poke/pha/molten_haxel"
+		},
+		"poke_pha_identifier": {
+			"textures": "textures/poke/pha/identifier"
+		}
+	},
+	"texture_name": "atlas.items"
+}

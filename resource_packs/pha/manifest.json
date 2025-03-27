@@ -1,0 +1,49 @@
+{
+	"header": {
+		"name": "v1.2 PHA RP",
+		"description": "An addon that adds the Haxels from PFE",
+		"pack_scope": "world",
+		"uuid": "f2357edf-297e-49c0-91a2-498ffe54c6fa",
+		"version": [
+			1,
+			2,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			60
+		]
+	},
+	"modules": [
+		{
+			"description": "PHA",
+			"type": "resources",
+			"uuid": "8b31b94d-c026-4103-8929-e32de2a32519",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{ //BP Manifest
+			"uuid": "a37578ca-1b39-47df-a4bc-35253702997d",
+			"version": [
+				1,
+				2,
+				0
+			]
+		}
+	],
+	"format_version": 2,
+	"metadata": {
+		"url": "https://github.com/ItsMePok/PHA",
+		"license": "MIT", // RP/LICENSE
+		"product_type": "addon",
+		"authors": [
+			"ItsMePok"
+		]
+	}
+}

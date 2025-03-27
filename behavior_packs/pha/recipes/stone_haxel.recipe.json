@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke_pha:stone_haxel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"NNN",
+			"Ni ",
+			" # "
+		],
+		"group": "haxel",
+		"unlock": [
+			{
+				"item": "stone"
+			},
+			{
+				"tag": "minecraft:stone_tool_materials"
+			},
+			{
+				"item": "poke_pha:wooden_haxel"
+			}
+		],
+		"key": {
+			"i": {
+				"item": "poke_pha:wooden_haxel"
+			},
+			"#": {
+				"tag": "minecraft:stone_tool_materials"
+			},
+			"N": {
+				"item": "stone"
+			}
+		},
+		"result": {
+			"item": "poke_pha:stone_haxel"
+		}
+	}
+}

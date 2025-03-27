@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke_pha:emerald_haxel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"N#N",
+			"#i#",
+			"N#N"
+		],
+		"group": "haxel",
+		"unlock": [
+			{
+				"item": "emerald"
+			},
+			{
+				"item": "poke_pha:gold_haxel"
+			},
+			{
+				"item": "emerald_block"
+			}
+		],
+		"key": {
+			"i": {
+				"item": "poke_pha:gold_haxel"
+			},
+			"#": {
+				"item": "emerald"
+			},
+			"N": {
+				"item": "emerald_block"
+			}
+		},
+		"result": {
+			"item": "poke_pha:emerald_haxel"
+		}
+	}
+}

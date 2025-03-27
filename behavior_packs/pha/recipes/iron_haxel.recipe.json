@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "poke_pha:iron_haxel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"NNN",
+			"Ni ",
+			" # "
+		],
+		"group": "haxel",
+		"unlock": [
+			{
+				"item": "stick"
+			},
+			{
+				"item": "iron_ingot"
+			},
+			{
+				"item": "iron_block"
+			},
+			{
+				"item": "poke_pha:stone_haxel"
+			}
+		],
+		"key": {
+			"i": {
+				"item": "stick"
+			},
+			"#": {
+				"item": "iron_ingot"
+			},
+			"N": {
+				"item": "iron_block"
+			}
+		},
+		"result": {
+			"item": "poke_pha:iron_haxel"
+		}
+	}
+}
